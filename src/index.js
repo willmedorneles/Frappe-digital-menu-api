@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(limiter);
 errorHandling(app);
-connectToDatabase();
+const connection = connectToDatabase();
 
 // __dirname is not available in ES modules, so we need to calculate it
 const __filename = fileURLToPath(import.meta.url);
