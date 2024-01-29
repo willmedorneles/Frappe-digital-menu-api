@@ -1,0 +1,42 @@
+{
+  "name": "frappe-menu-api",
+  "version": "0.0.1",
+  "description": "This is a simple api for exhibition and management of the digital menu for the coffe shop Frappé - Café com dança",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "coffe",
+    "shop",
+    "menu",
+    "interactive",
+    "menu",
+    "digital",
+    "menu",
+    "management"
+  ],
+  "author": "William Dorneles",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "express-rate-limit": "^7.1.5",
+    "jwks-rsa": "^3.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.0",
+    "node-env": "^0.1.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willmedorneles/Frappe-digital-menu"
+  }
+}
