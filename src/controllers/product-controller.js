@@ -1,4 +1,3 @@
-// productController.js
 import { getRawProductData } from "./../models/product-model.js";
 import { formatProductData } from "./../utils/product-utils.js";
 
